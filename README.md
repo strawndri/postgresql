@@ -1,4 +1,4 @@
-<h1 align="center"> 👩‍💻 PostgreSQL 👩‍💻</h1>
+<h1 align="center">🐘 PostgreSQL 🐘</h1>
 
 <p align="center">
   <img src="https://i.imgur.com/CqN07Qb.png" alt='Banner. Imagem com fundo verde com uma borda cinza escuro em seu entorno. Ao centro, há um retângulo cinza escuro com o texto: "Formação PostgreSQL". Ao lado esquerdo desse retângulo, há a logo do PotsgreSQL. Abaixo do retângulo cinza, há um retângulo menor verde escuro, nele está escrito "Alura".' />
