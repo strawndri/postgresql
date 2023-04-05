@@ -12,9 +12,9 @@ OFFSET 2;
 
 -- Funções de agrupamento
 SELECT 	COUNT(id), 
-		SUM(id),
-		MAX(id),
-		MIN(id)
+   SUM(id),
+   MAX(id),
+   MIN(id)
 FROM ALUNO;
 
 -- Agrupando valores
