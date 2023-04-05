@@ -15,5 +15,3 @@ CREATE TABLE aluno (
 	hora_aula TIME,
 	data_matricula TIMESTAMP
 );
-
-
