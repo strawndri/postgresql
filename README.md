@@ -22,7 +22,7 @@
 ---
 ## Sobre o repositório 
 
-O projeto contempla todos os cursos da formação [PostgreSQL](), da plataforma [Alura](https://www.alura.com.br/). Ao longo dos cursos, foram estudados conceitos iniciais deste sistema gerenciador de banco de dados (SGBD), com enfoque na linguagem SQL (Structured Query Language)
+O projeto contempla todos os cursos da formação [SQL com PostgreSQL](https://www.alura.com.br/formacao-postgresql), da plataforma [Alura](https://www.alura.com.br/). Ao longo dos cursos, foram estudados conceitos iniciais deste sistema gerenciador de banco de dados (SGBD), com enfoque na linguagem SQL (Structured Query Language)
 
 ## Cursos
 Para visualizar os aprendizados de cada curso, basta clicar nos links abaixo:
