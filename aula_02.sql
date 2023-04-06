@@ -14,9 +14,9 @@ SELECT nome, count(aluno_curso.curso_id) AS total_estudantes
 	ORDER BY total_estudantes DESC
 	
 -- Relatório 3: categorias mais requisitadas
-SELECT categoria.nome, count(curso.categoria_id) AS categoria
+SELECT categoria.nome AS categoria, count(curso.categoria_id) AS quantidade_alunos
 	FROM curso
 	LEFT JOIN aluno_curso ON aluno_curso.curso_id = curso.id
 	LEFT JOIN categoria ON categoria.id = curso.categoria_id
 	GROUP BY 1
-	ORDER BY categoria DESC
+	ORDER BY quantidade_alunos DESC
