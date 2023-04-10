@@ -26,6 +26,7 @@ O projeto contempla todos os cursos da formação [SQL com PostgreSQL](https://w
 ## Cursos
 Para visualizar os aprendizados de cada curso, basta clicar nos links abaixo:
 - [1º Curso: PostgreSQL](https://github.com/strawndri/postgresql/tree/curso_01)
+- [2° Curso: PostgreSQL: Views, Sub-Consultas e Funções](https://github.com/strawndri/postgresql/tree/curso_02)
 
 ## Como acessar os scripts
 
