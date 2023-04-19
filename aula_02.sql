@@ -1,4 +1,4 @@
--- 
+-- Lidando com Rollback
 
 CREATE OR REPLACE FUNCTION cria_instrutor() 
 RETURNS TRIGGER AS $$
@@ -10,14 +10,17 @@ RETURNS TRIGGER AS $$
 		salario DECIMAL(10, 2); 
 		percentual DECIMAL(10, 2);
 		
-	BEGIN
+	BEGIN 
 		SELECT AVG (instrutor.salario) 
-		INTO media_salarial 
-		FROM instrutor
-		WHERE id <> NEW.id;
-		
+			INTO media_salarial 
+			FROM instrutor
+			WHERE id <> NEW.id;
+			
 		IF NEW.salario > media_salarial THEN
-			INSERT INTO log_instrutores (informacao) VALUES (NEW.nome || ' recebe acima da média.');
+			INSERT 
+				INTO log_instrutores (informacao) 
+				VALUES (NEW.nome || ' receberia acima da média, mas a inserção foi negada.');
+			RETURN NULL;
 		END IF;
 		
 		FOR salario IN 
@@ -33,28 +36,16 @@ RETURNS TRIGGER AS $$
 		
 		percentual = instrutores_recebem_menos::DECIMAL / total_instrutores::DECIMAL * 100;
 		
-		INSERT INTO log_instrutores (informacao)
-			VALUES (NEW.nome || ' recebe mais do que ' || percentual || '% da grade de instrutores');
+		INSERT INTO log_instrutores (informacao, campo_invalido)
+			VALUES (NEW.nome || ' recebe mais do que ' || percentual || '% da grade de instrutores', '');
 		RETURN NEW;
-		
-		EXCEPTION
-			WHEN undefined_column THEN
-			RAISE NOTICE 'Erro';
-			RAISE EXCEPTION 'Erro X';
 	END;
 $$ LANGUAGE PLPGSQL;
-
 
 CREATE OR REPLACE TRIGGER cria_log_instrutores 
 	AFTER INSERT ON instrutor
 	FOR EACH ROW EXECUTE FUNCTION cria_instrutor();
-
+	
 INSERT 
-INTO instrutor (nome, salario) 
-VALUES ('Gina Afonso', 2000); 
-
-DELETE FROM instrutor
-WHERE nome = 'Gina Afonso';
-
-SELECT * FROM instrutor;
-SELECT * FROM log_instrutores;
+	INTO instrutor (nome, salario) 
+	VALUES ('Beatriz Bia', 100); 
