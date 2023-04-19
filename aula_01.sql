@@ -19,7 +19,8 @@ RETURNS TRIGGER AS $$
 		IF NEW.salario > media_salarial THEN
 			INSERT 
 				INTO log_instrutores (informacao) 
-				VALUES (NEW.nome || ' recebe acima da média.');
+				VALUES (NEW.nome || ' receberia acima da média, mas a inserção foi negada.');
+			RETURN NULL;
 		END IF;
 		
 		FOR salario IN 
@@ -42,12 +43,11 @@ RETURNS TRIGGER AS $$
 $$ LANGUAGE PLPGSQL;
 
 CREATE OR REPLACE TRIGGER cria_log_instrutores 
-	AFTER INSERT ON instrutor
+	BEFORE INSERT ON instrutor
 	FOR EACH ROW EXECUTE FUNCTION cria_instrutor();
 	
 INSERT 
 	INTO instrutor (nome, salario) 
-	VALUES ('Cecília Bibo', 580); 
+	VALUES ('Catarina Gonçalves', 20000); 
 	
 SELECT * FROM instrutor;
-
