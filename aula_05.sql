@@ -1,3 +1,4 @@
+-- Usando DO -> blocos anônimos
 DO $$
 	DECLARE
 		cursor_salario refcursor;
