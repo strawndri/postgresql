@@ -32,7 +32,7 @@ SELECT * FROM instrutores_bem_pagos(200)
 
 -- Parâmetros de saída
 CREATE FUNCTION soma_e_produto(IN numero_1 INTEGER, IN numero_2 INTEGER,
-							   OUT soma INTEGER, OUT produto INTEGER) AS $$
+	                       OUT soma INTEGER, OUT produto INTEGER) AS $$
 	SELECT numero_1 + numero_2 AS soma, numero_1 * numero_2 AS produto;
 $$ LANGUAGE SQL;
 
@@ -40,8 +40,8 @@ SELECT * FROM soma_e_produto(2, 8);
 
 -- Parâmetros de saída com RECORD
 CREATE FUNCTION instrutores_bem_pagos2(IN valor_salario DECIMAL,
-									 OUT nome VARCHAR, OUT salario DECIMAL) 
-									 RETURNS SETOF RECORD AS $$
+				       OUT nome VARCHAR, OUT salario DECIMAL) 
+				       RETURNS SETOF RECORD AS $$
 	SELECT nome, salario FROM instrutor WHERE salario >= valor_salario
 $$ LANGUAGE SQL; 
 
