@@ -39,5 +39,5 @@ Para visualizar os aprendizados de cada curso, basta clicar nos links abaixo:
 
 ## Feito com carinho por:
 
-| [<img src="https://avatars.githubusercontent.com/u/62841828?v=4" width="200"><br><sub>Andrieli Gonçalves</sub>](https://github.com/strawndri)  | 
-| :---: |
+| <img src="https://avatars.githubusercontent.com/u/62841828?v=4" width="300"> | [Andrieli Gonçalves](https://github.com/strawndri) é estudante de ensino médio técnico em informática, gosta de livros, estudar e programar. Tem um carinho especial por Dados e Biologia. Trabalha atualmente como monitora no fórum da Alura. |
+| :---: | :--- |
