@@ -39,6 +39,6 @@ Para visualizar os aprendizados de cada curso, basta clicar nos links abaixo:
 
 ## Feito com carinho por:
 
-| <img src="https://avatars.githubusercontent.com/u/62841828?v=4" width="115"> | Andrieli Gonçalves é estudante de ensino médio técnico em informática, gosta de livros, estudar e programar. Tem um carinho especial por Dados e Biologia. Trabalha atualmente como monitora no fórum da Alura. <br><br> <div><a href="mailto:andrieliluci@gmail.com"><img height="30em" src="https://img.shields.io/badge/Gmail-bf637c?style=for-the-badge&logo=gmail&logoColor=f2f2f2"/></a>  <a href="https://www.linkedin.com/in/andrieli-luci/" target="_blank"><img height="30em" src="https://img.shields.io/badge/LinkedIn-bf637c?style=for-the-badge&logo=linkedin&logoColor=f2f2f2"/></a></div> |
+| <img src="https://avatars.githubusercontent.com/u/62841828?v=4" width="300"> | Andrieli Gonçalves é estudante de ensino médio técnico em informática, gosta de livros, estudar e programar. Tem um carinho especial por Dados e Biologia. Trabalha atualmente como monitora no fórum da Alura. <br><br> <div><a href="mailto:andrieliluci@gmail.com"><img height="30em" src="https://img.shields.io/badge/Gmail-bf637c?style=for-the-badge&logo=gmail&logoColor=f2f2f2"/></a>  <a href="https://www.linkedin.com/in/andrieli-luci/" target="_blank"><img height="30em" src="https://img.shields.io/badge/LinkedIn-bf637c?style=for-the-badge&logo=linkedin&logoColor=f2f2f2"/></a></div> |
 | :---: | :--- |
 
