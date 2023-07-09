@@ -1,44 +1,50 @@
-<h1 align="center">Formação de PostgreSQL</h1>
+# 🐘 | Formação de PostgreSQL
 
-<p align="center">
-    <img src='https://img.shields.io/badge/License-MIT-f2a2b7?style=for-the-badge&logo=appveyor' alt='Badge. Retângulo dividido em duas partes: no lado esquerdo, o retângulo possui a cor cinza, um círculo azul com vazados e o texto "LICENSE"; no lado direito, o retângulo é cor-de-rosa e contém o texto "MIT".'>
-    <img src='https://img.shields.io/badge/Status-Em progresso-F8EE77?style=for-the-badge&logo=appveyor' alt='Badge. Retângulo dividido em duas partes: no lado esquerdo, o retângulo possui a cor cinza, um círculo azul com vazados e o texto "STATUS"; no lado direito, o retângulo é amarelo e contém o texto "Em progresso".'>
-</p>
+[![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-f5b5ca.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/Status-Concluído-abf285.svg)](https://github.com/seu-usuario/seu-repositorio)
 
-## 📜 Sumário 
+## Índice
 
-* [Sobre o projeto](#ℹ️-sobre-o-repositório)
-* [Cursos](#-cursos)
-* [Como acessar os scripts](#%EF%B8%8F-como-acessar-os-scripts)
-* [Tecnologias](#-tecnologias)
+- [Sobre o projeto](#sobre-o-projeto)
+- [Aprendizagens](#aprendizagens)
+- [Como acessar o projeto?](#como-acessar-o-projeto)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Licença](#licença)
 
----
-
-## ℹ️ Sobre o repositório 
+## Sobre o projeto
 
 O projeto contempla todos os cursos da formação [SQL com PostgreSQL](https://www.alura.com.br/formacao-postgresql), da plataforma [Alura](https://www.alura.com.br/). Ao longo dos cursos, foram estudados conceitos iniciais deste sistema gerenciador de banco de dados (SGBD), com enfoque na linguagem SQL (Structured Query Language)
 
-## 📚 Cursos
-Para visualizar os aprendizados de cada curso, basta clicar nos links abaixo:
+## Aprendizagens
+- O que é PostgreSQL;
+- Execução de operações CRUD (Create, Read, Update e Delete);
+- Utilização de filtros com `WHERE`;
+- Como agrupar resultado com `GROUP BY`;
+- Utilização de subconsultas e *views*;
+- Diferenças entre DDL (Linguagem de Definição de Dados) e DML (Linguagem de Manipulação de Dados);
+- O que é linguagem procedural e o como trabalhar com PL/pgSQL;
+- O que são *triggers* (gatilhos) e como usá-los em ações como `INSERT`, `UPDATE` e `DELETE`.
+
+## Como acessar o projeto?
+
+Para explorar o que foi feito em cada curso, você pode acessá-los de forma individual clicando nos links abaixo:
+
 - [1º Curso - PostgreSQL](https://github.com/strawndri/postgresql/tree/curso_01)
 - [2° Curso - PostgreSQL: Views, Sub-Consultas e Funções](https://github.com/strawndri/postgresql/tree/curso_02)
+- [4º Curso - PostgreSQL: desenvolva com PL/pgSQL](https://github.com/strawndri/postgresql/tree/main/curso_04)
+- [5º Curso - PostgreSQL: Triggers, transações, erros e cursores](https://github.com/strawndri/postgresql/tree/main/curso_05)
 
-## ▶️ Como acessar os scripts
 
-1. Clonar o repositório:
-  ```
-  git clone https://github.com/strawndri/postgresql.git
-  ```
-2. Localizar e acessar a pasta "postgresql";
-3. Acessar as pastas referentes aos cursos;
-4. Abrir os arquivos `.sql` em um editor de texto ou sistema gerenciador de banco de dados.
+## Tecnologias Utilizadas
 
-## 🚀 Tecnologias
 - [PostgreSQL](https://www.postgresql.org/): Sistema Gerenciador de Banco de Dados (SGBD)
 - [SQL](https://www.w3schools.com/sql/sql_intro.asp): Linguagem de consulta estruturada
 
-## Feito com carinho por:
+## Licença
 
-| <img src="https://avatars.githubusercontent.com/u/62841828?v=4" width="320"> | [Andrieli Gonçalves](https://github.com/strawndri) é estudante de ensino médio técnico em informática, gosta de livros, estudar e programar. Tem um carinho especial por Dados e Biologia. Trabalha atualmente como monitora no fórum da Alura. <br><br> <div><a href="mailto:andrieliluci@gmail.com"><img height="30em" src="https://img.shields.io/badge/Gmail-bf637c?style=for-the-badge&logo=gmail&logoColor=f2f2f2"/></a>  <a href="https://www.linkedin.com/in/andrieli-luci/" target="_blank"><img height="30em" src="https://img.shields.io/badge/LinkedIn-bf637c?style=for-the-badge&logo=linkedin&logoColor=f2f2f2"/></a></div> |
-| :---: | :--- |
+Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT). Consulte o arquivo `LICENSE` para obter mais informações sobre os termos de licenciamento.
+
+---
+
+✨ Feito com carinho por [Andrieli Gonçalves](https://github.com/strawndri).
 
