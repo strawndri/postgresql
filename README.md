@@ -1,7 +1,7 @@
 # 🐘 | Formação de PostgreSQL
 
-[![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-f5b5ca.svg)](https://opensource.org/licenses/MIT)
-[![Status](https://img.shields.io/badge/Status-Concluído-abf285.svg)](https://github.com/seu-usuario/seu-repositorio)
+![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-f5b5ca.svg)
+![Status](https://img.shields.io/badge/Status-Concluído-abf285.svg)
 
 ## Índice
 
